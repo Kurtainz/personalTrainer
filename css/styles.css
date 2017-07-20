@@ -1,0 +1,226 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+body {
+	font-family: 'Permanent Marker', cursive;
+}
+
+a:visited {
+	color: inherit;
+}
+
+header {
+	height: 20vh;
+	margin-bottom: 50px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 4em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.titleDiv {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.titleList {
+	font-size: 1.45em;
+}
+
+ul {
+	list-style: none;
+	width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+li {
+	display: inline;
+	display: inline;
+    border-left: black 1px solid;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+li:last-child {
+	border-right: black 1px solid;
+}
+
+.top {
+	/*background-image: url('../lib/deadlift.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #fff;*/
+	height: 80vh;
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.topHeader {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 4em;
+}
+
+.main {
+	width: 80%;
+	margin: 5em auto 5em;
+	display: flex;
+}
+
+.mainPicContainer {
+	width: 50%;
+}
+
+.mainPic {
+	width: 80%;
+	height: 300px;
+}
+
+.mainText {
+	width: 50%;
+	font-size: 1.4em;
+}
+
+.mainBottom {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.bottomHeader {
+	color: #fff;
+	text-align: center;
+    font-size: 2.7em;
+    padding: 60px 0 50px;
+}
+
+.bottomContainer {
+	display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bottomBlock {
+	margin-bottom: 30px;
+}
+
+.bottomContact {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.bottomLocation {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.bottomLocation h3 {
+	font-size: 30px;
+}
+
+.bottomLocation p {
+	font-size: 20px;
+}
+
+.bottomText {
+	font-size: 20px;
+}
+
+.bottomBlock i.fa {
+	font-size: 40px;
+}
+
+
+
+/*About page*/
+.aboutHeader {
+	text-align: center;
+    font-size: 2.5em;
+    padding: 1em;
+}
+
+.aboutMain {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.aboutImage {
+	float: left;
+}
+
+.aboutText {
+	float: right;
+	width: 30vw;
+	font-size: 1.2em;
+}
+
+/*Contact page*/
+.contactSection {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.contactHeader {
+	font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.contactP {
+	font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.contactForm {
+	width: 80%;
+	margin: 0 auto;
+}
+
+form {
+	width: 80%;
+    margin: 0 auto;
+}
+
+input {
+	display: block;
+	width: 100%;
+    background-color: black;
+    height: 3em;
+    margin-bottom: 4em;
+    border-radius: 1em;
+}
+
+input::placeholder {
+	margin-left: 1em;
+}
+
+i.fa {
+	font-size: 5em;
+	margin-bottom: 0.2em;
+}
+
+.contactText {
+	font-size: 1.7em;
+}
